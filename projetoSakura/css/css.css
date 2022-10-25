@@ -1,0 +1,109 @@
+body {
+    background-image: url(../img/Logo_Sakura-\ \(1\).png);
+    
+}
+.container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #fc199b;
+    border-radius: 10px 10px 10px 10px;
+    height: 600px;
+    
+    
+}
+.titulo {
+    animation-name: cair;
+    animation-duration: 2s;
+    border: 1px solid #fc199b;
+    border-radius: 10px;
+    /* display: inline-block; */
+    margin-top: 20px;
+    margin-bottom: 0px;
+    background-color: #fc199b;
+    
+    
+    
+}
+.titulo h1 {
+    
+
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+.logo{
+    display: inline-block;
+    height: 10px;
+}
+.lado{ 
+    margin-top: 20px;
+    display: flex;
+    
+}
+
+.display {
+    display: flex;
+}
+
+.tegs {
+    /* border: 2px solid blue; */
+    width: 900px;
+    display: inline-block;
+    
+}
+
+.botao {
+    margin-top: 70px;
+    text-align: center;
+    color: #fc199b;
+}
+
+.email_geral{
+    text-align: center;
+}
+.emailDistancia {
+    
+    margin-top: 30px;
+    
+}
+.email {
+    margin-left: 10px;
+    width: 300px;
+    display:flex ;
+}
+
+.navcolor {
+    background-color: #fc72c3;
+    
+}
+
+.navlink {
+    color: white;
+}
+
+.navlink:hover {
+    background-color: rgba(252,78,180);
+}
+
+#imgCadeado {
+    height:50px ;
+}
+.rodape {
+    background-color:#fc72c3;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+}
+
+@keyframes cair {
+    from { 
+        opacity: 0;
+        transform: translateY(-500px) rotateX(360deg);
+        
+    }
+    to { opacity: 1;}
+}
